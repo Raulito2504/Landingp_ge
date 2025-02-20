@@ -1,7 +1,17 @@
+<<<<<<< HEAD
 import "./App.css"
+=======
+import './App.css'
+import Navbar from './components/Navbar'
+import Hero from './components/Hero'
+import About from './components/About'
+import Events from './components/Events'
+import Footer from './components/Footer'
+>>>>>>> ca528ac73bf03580a38b03655f4b71fdb4a84f0d
 
 const App = () => {
   return (
+<<<<<<< HEAD
     <div className="font-sans">
       {/* Previous header content remains unchanged */}
 
@@ -76,6 +86,16 @@ const App = () => {
           </div>
         </div>
       </footer>
+=======
+    <div className="min-h-screen">
+      <Navbar />
+      <main>
+        <Hero />
+        <About />
+        <Events />
+      </main>
+      <Footer />
+>>>>>>> ca528ac73bf03580a38b03655f4b71fdb4a84f0d
     </div>
   )
 }
