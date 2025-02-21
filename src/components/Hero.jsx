@@ -39,11 +39,12 @@ const Hero = () => {
                         initial={{ opacity: 0, scale: 0.8 }}
                         animate={{ opacity: 1, scale: 1 }}
                         transition={{ duration: 0.8, delay: 0.2 }}
-                        className="relative h-[400px] lg:h-[500px]"
+                        className="relative h-[400px] lg:h-[400px]"
                     >
                         <div className="absolute inset-0 bg-gradient-to-r from-kankun-light to-kankun-primary rounded-2xl opacity-20"></div>
                         <div className="absolute inset-0 flex items-center justify-center">
-                            <span className="text-6xl">🎉</span>
+                            
+                            <img src="/evento.jpg?height=250&width=400"alt="" />
                         </div>
                     </motion.div>
                 </div>
