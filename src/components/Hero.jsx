@@ -1,5 +1,5 @@
-"use client"
 import { motion } from "framer-motion"
+import Image from "../assets/img1.jpg"
 
 const Hero = () => {
     return (
@@ -39,6 +39,7 @@ const Hero = () => {
                         initial={{ opacity: 0, scale: 0.8 }}
                         animate={{ opacity: 1, scale: 1 }}
                         transition={{ duration: 0.8, delay: 0.2 }}
+<<<<<<< HEAD
                         className="relative h-[400px] lg:h-[400px]"
                     >
                         <div className="absolute inset-0 bg-gradient-to-r from-kankun-light to-kankun-primary rounded-2xl opacity-20"></div>
@@ -46,6 +47,16 @@ const Hero = () => {
                             
                             <img src="/evento.jpg?height=250&width=400"alt="" />
                         </div>
+=======
+                        className="relative h-[400px] lg:h-[500px] rounded-2xl overflow-hidden"
+                    >
+                        <div className="absolute inset-0 bg-gradient-to-r from-kankun-light to-kankun-primary opacity-20 z-10"></div>
+                        <img
+                            src={Image || "/placeholder.svg"}
+                            alt="Ciudad al atardecer con niebla"
+                            className="absolute inset-0 w-full h-full object-cover"
+                        />
+>>>>>>> fa5df220cf5d50858d32c4249ce6e423f6e40be8
                     </motion.div>
                 </div>
             </div>
