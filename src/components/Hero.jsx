@@ -47,7 +47,6 @@ const Hero = () => {
                             
                             <img src="/evento.jpg?height=250&width=400"alt="" />
                         </div>
-=======
                         className="relative h-[400px] lg:h-[500px] rounded-2xl overflow-hidden"
                     >
                         <div className="absolute inset-0 bg-gradient-to-r from-kankun-light to-kankun-primary opacity-20 z-10"></div>
@@ -56,7 +55,6 @@ const Hero = () => {
                             alt="Ciudad al atardecer con niebla"
                             className="absolute inset-0 w-full h-full object-cover"
                         />
->>>>>>> fa5df220cf5d50858d32c4249ce6e423f6e40be8
                     </motion.div>
                 </div>
             </div>
